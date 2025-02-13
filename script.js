@@ -3,7 +3,7 @@ const codeInput = document.getElementById('code');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 
-const secretCode = 'Aarti'; // Replace with your secret code
+const secretCode = 'Sanika'; // Replace with your secret code
 const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 
 form.addEventListener('submit', (e) => {
@@ -13,6 +13,6 @@ form.addEventListener('submit', (e) => {
 		resultDiv.innerHTML = 'Sanuu';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
-		resultDiv.innerHTML = 'Nahi Tu Majhu Aaru nahi aahes majhi aaru kuth aahe';
+		resultDiv.innerHTML = 'Nahi Tu Majhu Sanuu nahi aahes majhi Sanuu kuth aahe';
 	}
 });
