@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Login by shobhit</title>
+    <title>Love Login by Abhi</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -107,17 +107,17 @@
         const submitBtn = document.getElementById('submit-btn');
         const resultDiv = document.getElementById('result');
 
-        const secretCode = 'Shobhit'; // Replace with your secret code
+        const secretCode = 'Aarti'; // Replace with your secret code
         const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const userInput = codeInput.value.trim();
             if (userInput === secretCode) {
-                resultDiv.innerHTML = 'Baby';
+                resultDiv.innerHTML = 'Shona';
                 window.location.href = nextPageUrl; // Redirect to new page
             } else {
-                resultDiv.innerHTML = 'Naa Tum meri baby nhi hoo kon hooo tum kaha hai meri Shobhit';
+                resultDiv.innerHTML = 'Tu Majhi aaru nahi aahes majhi aaru kuth aahe';
             }
         });
 
