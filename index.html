@@ -107,17 +107,17 @@
         const submitBtn = document.getElementById('submit-btn');
         const resultDiv = document.getElementById('result');
 
-        const secretCode = 'Aarti'; // Replace with your secret code
+        const secretCode = 'Sanika'; // Replace with your secret code
         const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const userInput = codeInput.value.trim();
             if (userInput === secretCode) {
-                resultDiv.innerHTML = 'Shona';
+                resultDiv.innerHTML = 'Sanuu';
                 window.location.href = nextPageUrl; // Redirect to new page
             } else {
-                resultDiv.innerHTML = 'Tu Majhi aaru nahi aahes majhi aaru kuth aahe';
+                resultDiv.innerHTML = 'Tu Majhi Sanuu nahi aahes majhi Sanuu kuth aahe';
             }
         });
 
